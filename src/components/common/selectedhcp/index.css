@@ -1,0 +1,19 @@
+.selected-hcp {
+    padding: 0;
+    background-color: rgb(232, 249, 255);
+}
+
+.selected-hcp .hcp-selection__icon-header {
+    width: 60px;
+}
+
+.selected-hcp .hcp-selection__icon-cell {
+    padding: 0;
+    text-align: right;
+}
+
+/* This icon is for sorting and should be 
+   * hidden once hcp is selected */
+.selected-hcp th .arrow-upward-icon {
+    display: none;
+}

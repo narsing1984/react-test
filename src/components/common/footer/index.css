@@ -1,0 +1,49 @@
+/* Footer starts*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: 67px;
+  background: rgb(68, 68, 68);
+  width: 100%;
+  padding: 15px 20px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: space-between;
+  align-items: stretch;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  right: 0px;
+}
+
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.footer__text-large {
+  font-size: 13px;
+  color: rgb(187, 187, 187);
+  display: flex;
+}
+
+.footer__text-large p {
+  margin-right: 16px;
+}
+
+.footer__text-small {
+  font-size: 11px;
+  color: rgb(187, 187, 187);
+}
+
+.footer__logo {
+  height: 100%;
+}
+
+.footer__date {
+  color: rgb(255, 255, 255);
+}
+
+/* Footer Ends */

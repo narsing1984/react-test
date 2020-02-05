@@ -1,0 +1,234 @@
+.message-customization {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+}
+
+.message-customization__top-panel {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+}
+
+.message-customization__top-panel-left {
+    width: 50%;
+    /* MF: tweak this if necessary */
+}
+
+.message-customization__flavor {
+    padding: 20px 20px 20px 0;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+    fill: rgb(119, 119, 119);
+    letter-spacing: 0.5px;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+    cursor: pointer;
+    transition: color 100ms linear;
+}
+
+.message-customization__flavor:hover {
+    color: rgb(95, 95, 95);
+    fill: rgb(95, 95, 95);
+}
+
+.message-customization__flavor:active {
+    color: rgb(63, 63, 63);
+    fill: rgb(63, 63, 63);
+}
+
+.message-customization__flavor .back-icon {
+    width: 75px;
+}
+
+.message-customization__message {
+    font-family: Roboto;
+    font-size: 19px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    color: #2273AD;
+    padding: 15px 15px 0 75px;
+    border-top: solid 1px rgb(221, 221, 221);
+}
+
+.message-customization__icon {
+    align-self: flex-end;
+    margin: 0 15px 0 25px;
+}
+
+.message-customization__preview {
+    font-family: Roboto;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: rgb(119, 119, 119);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px;
+    padding-left: 0px;
+}
+
+.message-customization__number-selected {
+    white-space: nowrap;
+    padding: 0 15px;
+}
+
+.message-customization__preview-button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 10px 12px;
+    border-radius: 7px;
+    fill: rgb(255, 255, 255);
+    background-color: #2273AD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 120ms linear;
+}
+
+.message-customization__preview-button:hover {
+    background-color: rgb(18, 99, 157);
+}
+
+.message-customization__preview-button:active {
+    background-color: rgb(2, 83, 141);
+}
+
+
+.message-customization__preview-button-text {
+    margin: 0 15px;
+}
+
+.message-customization__options {
+    padding: 10px 12px;
+    padding-left: 0px;
+    display: grid;
+    grid-template-areas:
+        "a c"
+        "b c";
+}
+
+.message-customization__checkbox-group {
+    padding: 6px 12px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(85, 85, 85);
+    display: flex;
+    align-items: center;
+}
+
+.message-customization__checkbox-label {
+    margin-left: 6px;
+}
+
+.message-customization__checkbox-group .check-box-outline-icon {
+    fill: #2273AD;
+}
+
+.message-customization__hcp-name {
+    grid-area: a;
+}
+
+.message-customization__co-pay {
+    grid-area: b;
+}
+
+.message-customization__ehr {
+    align-self: flex-start;
+    grid-area: c;
+}
+
+.message-customization__bottom-panel {
+    flex: 1 1 0;
+    background-color: rgb(244, 244, 244);
+    padding: 25px;
+    overflow: hidden;
+}
+
+.message-customization__plan-table-wrapper {
+    height: 100%;
+    overflow: auto;
+}
+
+.message-customization__plan-table {
+    border: solid 1px rgb(187, 187, 187);
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+}
+
+.message-customization__plan-table thead tr {
+    height: 50px;
+    background-color: #EEE;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+    text-align: left;
+    border-bottom: solid 1px rgb(187, 187, 187);
+}
+
+.message-customization__plan-table th,
+.message-customization__plan-table td {
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
+.message-customization__plan-table tbody tr {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    color: #707070;
+    text-align: left;
+    border-bottom: solid 1px rgb(187, 187, 187);
+}
+
+.message-customization__plan-table tbody tr.selected {
+    background-color: rgb(232, 249, 255);
+}
+
+.message-customization__plan-table tbody tr:hover:not(.selected) {
+    background-color: rgb(243, 252, 255);
+}
+
+.message-customization__plan-table-select-cell {
+    text-align: right;
+}
+
+.message-customization__plan-table .check-box-outline-icon {
+    fill: rgb(187, 187, 187);
+}
+
+.message-customization__plan-table .check-box {
+    fill: #2273AD;
+}
+
+.a {
+    fill: #2273ad;
+}
+
+.b {
+    fill: #00ffeb;
+}
+
+.c {
+    fill: rgb(255, 255, 255);
+}
+
+.d {
+    fill: none;
+    stroke: rgb(255, 255, 255);
+    stroke-width: 2px;
+}

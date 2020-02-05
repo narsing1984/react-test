@@ -1,0 +1,31 @@
+[{
+        "channel": "Commercial",
+        "plan_name": "CDPHP (Capital District Physicians' Health Plan)",
+        "status": "Tier 2 Preferred",
+        "copay": "$0 - $8.35; $46"
+    },
+    {
+        "channel": "Commercial",
+        "plan_name": "CVS Health Administered Plans",
+        "status": "Tier 3 Non-Preferred - PA",
+        "copay": "$0 - $8.35; $47"
+    },
+    {
+        "channel": "Commercial",
+        "plan_name": "St. Jospeh Health System (CA) (CVS Health)",
+        "status": "Tier 3 Non-Preferred - PA",
+        "copay": "$0 - $8.35; $30"
+    },
+    {
+        "channel": "Medicare Part D",
+        "plan_name": "Anthem Blue Cross and Blue Shield",
+        "status": "Tier 3 Non-Preferred - PA/SE",
+        "copay": "$35 - $53"
+    },
+    {
+        "channel": "Commercial",
+        "plan_name": "State of New York / Empire / Excelsior NYSHIP (CVS Health)",
+        "status": "Non-Preferred - PA",
+        "copay": "$0 - $8.35; $30"
+    }
+]

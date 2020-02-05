@@ -1,0 +1,21 @@
+[{
+        "message_type": "Improved Access",
+        "description": "85% of prescriptions for CARDIOCAP® (brexpiprazole) in Texas are covered without restrictions or with a single generic step edit."
+    },
+    {
+        "message_type": "Favorable Access",
+        "description": "90% of Patients in Your Area have Unrestricted Access to CARDIOCAP and pay an Average Co-Pay of $50 or Less."
+    },
+    {
+        "message_type": "Commercial",
+        "description": "92% of Commercial Patients in Your Area have Unrestricted Access to CARDIOCAP and pay an Average Co-Pay of $50 or Less."
+    },
+    {
+        "message_type": "Medicare",
+        "description": "88% of Medicare Patients in Your Area have Unrestricted Access to CARDIOCAP."
+    },
+    {
+        "message_type": "Plan List",
+        "description": "CARDIOCAP Access in Your Area."
+    }
+]

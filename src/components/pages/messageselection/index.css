@@ -1,0 +1,55 @@
+/* Message section starts*/
+
+.message-selection {}
+
+.message-selection__list {
+    background-color: rgb(255, 255, 255);
+}
+
+.message-selection__list-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 16px 25px 16px 75px;
+    border-bottom: solid 1px rgb(221, 221, 221);
+    cursor: default;
+}
+
+.message-selection__list-item:hover .message-selection__message-flavor {
+    color: rgb(34, 115, 173);
+}
+
+.message-selection__message-flavor {
+    width: 200px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(119, 119, 119);
+    letter-spacing: 0.5px;
+    flex: 0 0 auto;
+    transition: color 100ms linear;
+}
+
+.message-selection__message {
+    flex: 1 1 auto;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14.5px;
+    color: rgb(85, 85, 85);
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    text-align: left;
+    margin: 0 15px;
+}
+
+.message-selection__list-item .forward-icon {
+    fill: rgb(119, 119, 119);
+    height: 24px;
+    flex: 0 0 auto;
+    align-self: center;
+}
+
+.message-selection__list a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Message section Ends*/

@@ -1,0 +1,173 @@
+@media (max-width: 600px) {
+  .login {
+    padding-top: 50px;
+  }
+
+  .login__dialog {
+    padding: 30px 10px;
+  }
+
+  .login__email-input-button {
+    padding: 15px 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  .login {
+    padding-top: 150px;
+  }
+
+  .login__dialog {
+    padding: 30px;
+    padding-bottom: 18px;
+  }
+
+  .login__email-input-button {
+    padding: 15px 25px;
+  }
+}
+
+.login {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+}
+
+.login__dialog {
+  box-sizing: border-box;
+  width: 450px;
+  max-width: calc(100% - 30px);
+  height: 350px;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login__dialog-heading {
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  font-size: 28px;
+  text-align: center;
+  color: rgb(32, 63, 105);
+  margin-bottom: 30px;
+}
+
+.login__dialog-message {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgb(85, 85, 85);
+  margin: 0 30px 30px 30px;
+}
+
+.login__input-label {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: rgb(85, 85, 85);
+  letter-spacing: 0.5px;
+}
+
+.login__email-input-container {
+  margin-top: 8px;
+  display: flex;
+  align-items: stretch;
+  max-width: 100%;
+}
+
+.login__email-input {
+  flex: 1 1 auto;
+  border: 0;
+  padding: 0 4px;
+  font-size: 18px;
+  border: solid 1px rgb(192, 192, 192);
+  border-right-width: 0;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  transition: border 100ms linear;
+}
+
+.login__email-input:focus {
+  border-right-width: 0;
+}
+
+.login__email-input-button {
+  flex: 1 1 auto;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  background-color: rgb(34, 115, 173);
+  border: 0;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  transition: background 100ms linear;
+}
+
+.login__email-input-button:hover {
+  background-color: rgb(18, 99, 157);
+}
+
+.login__email-input-button:active {
+  background-color: rgb(2, 83, 141);
+}
+
+.login__dialog-footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex: 1 1 auto;
+}
+
+.login__dialog-footer-button {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+  margin-left: auto;
+  border: none;
+  display: flex;
+  align-items: center;
+  fill: rgb(144, 144, 144);
+  color: rgb(144, 144, 144);
+}
+
+.login__dialog-footer-button:hover {
+  fill: rgb(120, 120, 120);
+  color: rgb(120, 120, 120)
+}
+
+.login__dialog-footer-button:active {
+  fill: rgb(96, 96, 96);
+  color: rgb(96, 96, 96)
+}
+
+.login__dialog-footer-button .perm-phone-message {
+  height: 20px;
+  margin-right: 5px;
+}
+
+/* .login .footer {
+    position: absolute;
+    bottom: 0;
+    height: 67px;
+    background: rgb(68,68,68);
+    width: 100%;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .login .footer-logo {
+    height: 100%;
+  }
+  
+  .login .footer-text {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgb(187,187,187);  
+  } */

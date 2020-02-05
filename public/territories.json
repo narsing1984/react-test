@@ -1,0 +1,36 @@
+[{
+    "TerritoryIdentity": 1,
+    "TerritoryID": "DBSPC011",
+    "TerritoryName": "ADVENTHEALTH (DBSPC011)",
+    "MarketID": 1,
+    "Display_Market": "Diabetes Sales",
+    "SalesTeam": 0
+}, {
+    "TerritoryIdentity": 2,
+    "TerritoryID": "DBSPC012",
+    "TerritoryName": "ADVENTHEALTH (DBSPC012)",
+    "MarketID": 1,
+    "Display_Market": "Diabetes Sales",
+    "SalesTeam": 0
+}, {
+    "TerritoryIdentity": 3,
+    "TerritoryID": "DCVL0L02",
+    "TerritoryName": "ADVOCATE AURORA (DCVL0L02)",
+    "MarketID": 1,
+    "Display_Market": "Diabetes Sales",
+    "SalesTeam": 0
+}, {
+    "TerritoryIdentity": 4,
+    "TerritoryID": "DCVPA031",
+    "TerritoryName": "ADVOCATE AURORA NORTH (DCVPA031)",
+    "MarketID": 1,
+    "Display_Market": "Diabetes Sales",
+    "SalesTeam": 0
+}, {
+    "TerritoryIdentity": 5,
+    "TerritoryID": "DCVPA041",
+    "TerritoryName": "ADVOCATE AURORA SOUTH (DCVPA041)",
+    "MarketID": 1,
+    "Display_Market": "Diabetes Sales",
+    "SalesTeam": 0
+}]

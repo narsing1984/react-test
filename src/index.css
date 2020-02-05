@@ -1,0 +1,183 @@
+/*"Reset"*/
+
+/* v1.0 | 20080212 - Eric Meyer's */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+html,
+body,
+#root,
+.App {
+  /*line-height: 1.3;*/
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+  outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**Utility**/
+.clear {
+  clear: both;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #352d23;
+  background-color: rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  background: none;
+}
+
+input:focus {
+  border: solid 1px rgb(34, 115, 173);
+}
+
+a:focus,
+button:focus {
+  outline: solid 2px rgb(102, 167, 224);
+  outline-offset: 3px;
+}
+
+/*"Links"*/
+
+a:link {}
+
+a:visited {}
+
+a:hover {}
+
+a:focus {}
+
+a:active {}
+
+.error {
+  color: red;
+  margin: 5px 0 0 5px;
+  font-size: 12px;
+}
