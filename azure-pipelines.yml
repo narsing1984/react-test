@@ -21,6 +21,4 @@ steps:
     npm install increase-memory-limit -g
   displayName: 'npm install and build'
   
-- task: PublishBuildArtifacts@1
-  inputs: 
-    pathtoPublish: $(build.artifactstagingdirectory) # dist or build files
+
