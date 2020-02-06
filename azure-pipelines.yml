@@ -19,6 +19,7 @@ steps:
     npm install webpack webpack-cli --save-dev
     npx webpack --config webpack.config.js
     npm install increase-memory-limit -g
+    npm run build --if-present
   displayName: 'npm install and build'
   
 
