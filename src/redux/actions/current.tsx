@@ -63,7 +63,7 @@ export function logOut() {
 
 export function globaldata() {
   return async (dispatch: Dispatch<GlobalDataAction, {}, any>) => {
-    fetch("http://localhost:5000/settings/get")
+    fetch("https://resct-test.azurewebsites.net/settings/get")
       .then(res => res.json())
       .then(res => {
         dispatch(getglobaldata(res));
